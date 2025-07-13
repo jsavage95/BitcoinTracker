@@ -58,7 +58,7 @@ void loop() {
   if (WiFi.status() == WL_CONNECTED) {
     Serial.println("Connecting to CoinGecko...");
     if (client.connect("api.coingecko.com", 443)) {
-      client.println("GET /api/v3/simple/price?ids=btc&vs_currencies=usd HTTP/1.1");
+      client.println("GET /api/v3/simple/price?ids=bitcoin&vs_currencies=usd HTTP/1.1");
       client.println("Host: api.coingecko.com");
       client.println("Connection: close");
       client.println();
