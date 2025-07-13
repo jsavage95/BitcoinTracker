@@ -6,6 +6,6 @@ This uses a Arduino UNO R4 WiFi Development board, and a 2 x 16 LCD controller d
 
 The controller plugs directly into the Arduino, so no wires or soldering required!
 
-Long term the goal is to 3D print my own case for it to make it more pleasing to eye ^_^
+Long term the goal is to 3D print my own case for it to make it more pleasing to the eye ^_^
 
 <img width="2048" height="1261" alt="image" src="https://github.com/user-attachments/assets/373673de-e0ce-436b-a5f3-89e4a8506528" />
